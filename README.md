@@ -1,4 +1,5 @@
-Love Math - A go-to love calculator that generates "compatibility scores" for a dose of laughter and amusement.  
+ Love Math
+      - A go-to love calculator that generates "compatibility scores" for a dose of laughter and amusement.  
 
 # Getting Started with Create React App
 
