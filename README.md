@@ -1,3 +1,5 @@
+Love Math - A go-to love calculator that generates "compatibility scores" for a dose of laughter and amusement.  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
