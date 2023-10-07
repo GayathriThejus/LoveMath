@@ -1,0 +1,120 @@
+
+.main{
+width: 2000px;
+height: 2000px;
+
+background: #000;
+
+}
+
+.ellipse1{
+    width: 334px;
+height: 319px;
+flex-shrink: 0;
+fill: #88155A;
+stroke-width: 1px;
+stroke: #000;
+opacity: 0.5;
+filter: blur(125px);
+}
+
+.ellipse2{
+    width: 261px;
+height: 261px;
+flex-shrink: 0;
+fill: #88155A;
+stroke-width: 1px;
+stroke: #ffffff;
+opacity: 0.5;
+filter: blur(125px);
+}
+
+
+.box{
+    position: absolute;
+    top: calc(50% - 250px); /* Center vertically (50% minus half of the box height) */
+    left: calc(50% - 250px); /* Center horizontally (50% minus half of the box width) */
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    z-index: 1; 
+    
+    padding-left: 50px;
+    border-width: 1rem;
+    border: 1px solid #FF64E6;
+  
+
+}
+
+
+.box label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: rgb(255, 255, 255); /* Set the text color */
+    z-index: 2; /* Place the text above the white box */
+    font-family:monospace;
+  }
+
+  .box input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: transparent;
+  border: 2px solid  #FF64E6;
+  border-top: none;
+  color: #fff;
+  
+  }
+  .box input:focus {
+    outline: none;
+  }
+  .box button{
+   
+        background: linear-gradient(110deg,  #FF64E6, #000000);
+        border: none;
+        color: white;
+        padding: 10px 10px;
+        font-size: 16px;
+        
+        margin-top: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+      
+  }
+
+  .box button:hover {
+    color: #000000; /* New background color on hover */
+    background-color: #fff; /* New text color on hover */
+  }
+  .box button:focus {
+    outline: none;
+  }
+  .heading h6{
+    font-family:"Sofia" ;
+  padding-top: 60px;
+    font-size: 2rem;
+    color: #ffffff;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    
+  }
+
+  .texts{
+    padding-top: 200px;
+    padding-left:50px;
+  }
+
+  .result{
+  
+  display: flex;
+  justify-content: center;
+    
+  }
+  .result p{
+  color: #ffffff;
+  font-family: "Sofia";
+  font-size: 1.2rem;
+    
+  }
