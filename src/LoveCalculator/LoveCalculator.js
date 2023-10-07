@@ -48,7 +48,7 @@ function LoveCalculator(){
         <div className="ellipse2"></div>
 
     <div className="box"> 
-      <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
         <div className="heading"><h6 className="font-effect-neon">The LOVE <br/>Math</h6></div>
         <div className="text">
             <label for="text1">Your Name</label>
